@@ -40,7 +40,7 @@
     .all-heading-syntax h5{margin-bottom:20px;margin-top: 0;font-size: 20px;line-height: 23px;font-weight: normal;}
     .all-heading-syntax h6{margin-bottom:20px;margin-top: 0;font-size: 16px;line-height: 18px;font-weight: normal;}
 
-    .link-div a{font-size: 20px;line-height: 30px;color: #1D1D1D;}
+    .link-div a{font-size: 20px;line-height: 30px;}
 
     .para-div{font-size: 20px;}
 
@@ -73,7 +73,7 @@
 
     .dl-dd-list .dl dt,dd{line-height: 23px;}
 </style>
-<body>
+<body  vlink="red" alink="green" link="black">
     <nav class="header">
         <h2>HTML Tutorial</h2>
     </nav>
@@ -108,7 +108,7 @@
             <div class="link-div">
                 <div class="d-flex align-items-baseline">
                     <p class="count-number">3)</p>
-                    <a href="#">www.onprintshop.com</a>
+                    <a href="#about" title="onPrint">www.onprintshop.com</a>
                 </div>
             </div>
             <hr>
@@ -138,7 +138,9 @@
             <div class="img-div">
                 <div class="d-flex align-items-baseline">
                     <p class="count-number">6)</p>
-                    <img src="./room.png" alt="Image">
+                    <div class="main-img">
+                        <img src="./assets/room.png" style="height: auto;width: 100%;" alt="Image">
+                    </div>
                 </div>
             </div>
             <hr>
@@ -178,7 +180,7 @@
             </div>
             <hr>
 
-            <div class="font-weight-div">
+            <div class="font-weight-div" id="about">
                 <div class="d-flex align-items-baseline">
                     <p class="count-number">10)</p>
                     <div>
